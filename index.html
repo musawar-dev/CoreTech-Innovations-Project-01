@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CoreTech Innovations — Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="brand" href="index.html">CoreTech</a>
+            <button class="nav-toggle" aria-label="Toggle navigation"></button>
+
+            <ul class="nav-links">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <button class="drop-trigger" aria-haspopup="true" aria-expanded="false">
+                        Services <span class="caret">▾</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-label="Services menu">
+                        <li><a href="#" class="service-link" data-service="web">Web Development</a></li>
+                        <li><a href="#" class="service-link" data-service="mobile">Mobile App Development</a></li>
+                        <li><a href="#" class="service-link" data-service="uiux">UI/UX Design</a></li>
+                        <li><a href="#" class="service-link" data-service="cloud">Cloud Solutions</a></li>
+                        <li><a href="#" class="service-link" data-service="marketing">Digital Marketing</a></li>
+                        <li><a href="#" class="service-link" data-service="consulting">IT Consulting</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Slide-down Service Panel -->
+        <section id="service-panel" class="service-panel" aria-live="polite"></section>
+    </header>
+
+    <!-- Hero -->
+    <main>
+        <section class="hero" data-bg="https://www.coretechio.com/images/bg.jpg">
+            <div class="hero__glass">
+                <h1>Transforming Vision into Reality</h1>
+                <p class="lead">We deliver innovative digital solutions that drive growth and efficiency.</p>
+                <div class="cta-row">
+                    <a class="btn" href="services.html">Explore Services</a>
+                    <a class="btn btn-ghost" href="portfolio.html">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services preview -->
+        <section class="strip container">
+            <h2 class="section-title">Our Core Services</h2>
+            <div class="grid cards-4">
+                <article class="card tilt" role="button" tabindex="0" data-service-card="web">
+                    <h3>Web Development</h3>
+                    <p>Responsive, scalable web applications and e-commerce solutions.</p>
+                </article>
+
+                <article class="card tilt" role="button" tabindex="0" data-service-card="mobile">
+                    <h3>Mobile App Development</h3>
+                    <p>Native & cross-platform mobile apps with modern UX.</p>
+                </article>
+
+                <article class="card tilt" role="button" tabindex="0" data-service-card="uiux">
+                    <h3>UI/UX Design</h3>
+                    <p>Prototypes and user-centered interfaces that convert.</p>
+                </article>
+
+                <article class="card tilt" role="button" tabindex="0" data-service-card="cloud">
+                    <h3>Cloud Solutions</h3>
+                    <p>Infrastructure, migration and DevOps for reliable systems.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- About preview -->
+        <section class="container flow">
+            <div class="glass pad-xl about-cards">
+                <h2>About CoreTech</h2>
+                <p>CoreTech Innovations helps businesses leverage technology to solve complex challenges and achieve
+                    strategic objectives.</p>
+            </div>
+
+            <div class="grid cards-3 about-cards">
+                <div class="card about-card">
+                    <h4>Our Mission</h4>
+                    <p>Empower businesses through innovative technology solutions that drive growth and efficiency.</p>
+                </div>
+                <div class="card about-card">
+                    <h4>Our Vision</h4>
+                    <p>To be a trusted technology partner, recognized for excellence and client success.</p>
+                </div>
+                <div class="card about-card">
+                    <h4>Our Approach</h4>
+                    <p>Design-led development with performance, accessibility and security in mind.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team preview -->
+        <section id="team" class="container team-section">
+            <h2 class="section-title">Meet the Team</h2>
+            <div class="grid team-grid">
+                <article class="team card">
+                    <img src="https://www.coretechio.com/images/suffii.png" alt="Sufyan Arain">
+                    <h3>Sufyan Arain</h3>
+                    <p class="muted">CEO & Founder</p>
+                </article>
+
+                <article class="team card">
+                    <img src="https://www.coretechio.com/images/shaha.png" alt="Shahzaib Shykh">
+                    <h3>Shahzaib Shykh</h3>
+                    <p class="muted">CEO & Co-Founder</p>
+                </article>
+
+                <article class="team card">
+                    <img src="https://www.coretechio.com/images/jaw.jpg" alt="Jawwwad Kamboh">
+                    <h3>Jawwwad Kamboh</h3>
+                    <p class="muted">CTO</p>
+                </article>
+
+                <article class="team card">
+                    <img src="https://www.coretechio.com/images/dua.jpg" alt="Dua Mirani">
+                    <h3>Dua Mirani</h3>
+                    <p class="muted">Developer Lead</p>
+                </article>
+            </div>
+            <div class="text-right" style="margin-top:.8rem">
+                <a class="link" href="team.html">View Full Team →</a>
+            </div>
+        </section>
+
+        <!-- Portfolio preview -->
+        <section class="strip container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="grid cards-3 portfolio-grid">
+                <article class="card portfolio-card">
+                    <img src="https://www.coretechio.com/images/c1.jpg" alt="Watches Store">
+                    <h3>Watches Store — E-commerce</h3>
+                    <p>Custom online store with inventory & payment integration.</p>
+                </article>
+
+                <article class="card portfolio-card">
+                    <img src="https://www.coretechio.com/images/quest.jpg" alt="ERP">
+                    <h3>CSE Department ERP Portal</h3>
+                    <p>AI-powered ERP portal for academic workflows.</p>
+                </article>
+
+                <article class="card portfolio-card">
+                    <img src="https://www.coretechio.com/images/sds.jpg" alt="Poster">
+                    <h3>Poster Designing — C-Cube 25</h3>
+                    <p>Event branding and promotional materials.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <p>© 2025 CoreTech Innovations</p>
+                <p class="muted">Nawabshah · Latifabad · Hyderabad</p>
+            </div>
+
+            <div class="footer-links">
+                <strong>Quick Links</strong>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <strong>Follow</strong>
+                <ul class="socials">
+                    <li><a href="#" aria-label="X">X</a></li>
+                    <li><a href="#" aria-label="GitHub">GitHub</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
